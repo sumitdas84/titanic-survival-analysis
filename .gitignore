@@ -1,4 +1,4 @@
-data/*
-report/*
-kaggle_code_output/*
-op.txt
+data/
+report/
+kaggle_code_output/
+*.txt
