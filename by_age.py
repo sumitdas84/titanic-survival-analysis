@@ -15,7 +15,7 @@ if __name__ == '__main__':
 	
 	age_grp = {}
 	
-	from_csv = pd.read_csv('train.csv')
+	from_csv = pd.read_csv('data/train.csv')
 	
 	for i in range (0, len(from_csv)):
 		dumb = from_csv['Name'][i]

@@ -3,7 +3,7 @@ import sys
 import csv
 
 if __name__ == '__main__':
-	with open('train.csv', 'rb') as f:
+	with open('data/train.csv', 'rb') as f:
 		reader = csv.reader(f)
 		s_f = 0
 		s_m = 0
