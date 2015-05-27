@@ -45,4 +45,4 @@ if __name__ == '__main__':
 				break
 
 	# store output in train_1.csv
-	from_csv.to_csv('data/train_1.csv')
+	from_csv.to_csv('data/train_1.csv',mode = 'w', index=False)
